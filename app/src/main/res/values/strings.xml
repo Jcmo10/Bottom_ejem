@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bottom_ejem</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_inventario">Stock</string>
+    <string name="title_Agregar">Add</string>
+    <string name="title_buscar">Search</string>
+    <string name="title_eliminar">Remove</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID</string>
+    <string name="Precio">Precio</string>
+    <string name="Stock">Cantidad</string>
+    <string name="nombre">Nombre</string>
+    <string name="agregar">Agregar</string>
+    <string name="Eliminar">Eliminar</string>
+</resources>

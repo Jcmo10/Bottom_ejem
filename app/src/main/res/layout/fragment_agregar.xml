@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eid"
+            android:editable="true"
+            android:hint="@string/id"
+            android:textSize="25sp"
+            />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eNombre"
+            android:hint="@string/nombre"
+            android:textSize="25sp"
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ePrecio"
+            android:hint="@string/Precio"
+            android:textSize="25sp"
+            />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eCantidad"
+            android:hint="@string/Stock"
+            android:textSize="25sp"
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bEnviar"
+            android:hint="@string/agregar"
+            android:textSize="25sp"
+            />
+
+
+
+</LinearLayout>
