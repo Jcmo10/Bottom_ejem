@@ -21,6 +21,8 @@
             app:menu="@menu/bottom_nav_menu" />
 
 
+
+
     <FrameLayout
             android:layout_width="0dp"
             android:id="@+id/contenedor"

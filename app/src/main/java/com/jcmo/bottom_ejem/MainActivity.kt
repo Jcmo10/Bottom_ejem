@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(),comunicador {
             }
             R.id.navigation_eliminar -> {
                 val eliminarFragment = EliminarFragment()
-                transaction.replace(R.id.contenedor, eliminarFragment).commit()
+                transaction.add(R.id.contenedor, eliminarFragment).commit()
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_inventario -> {
@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity(),comunicador {
         peluchito.add(Peluches("001","Abeja","$10","8"))
 
 
-        transaction.add(R.id.contenedor, agregarFragment).commit()
+        transaction.replace(R.id.contenedor, agregarFragment).commit()
         navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
     }
 

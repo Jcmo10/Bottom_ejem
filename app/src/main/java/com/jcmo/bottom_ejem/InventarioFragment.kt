@@ -28,7 +28,7 @@ class InventarioFragment : Fragment() {
 
         recyclerView  = root.findViewById(R.id.recycler)
         recyclerView.setHasFixedSize(true)
-        recyclerView.layoutManager = LinearLayoutManager(this.context,RecyclerView.VERTICAL,false)
+        recyclerView.layoutManager = LinearLayoutManager(this.context,RecyclerView.VERTICAL,false) 
 
         val pelucheAdapter = PeluchesAdapter(peluchito,this.requireContext())
         recyclerView.adapter = pelucheAdapter
