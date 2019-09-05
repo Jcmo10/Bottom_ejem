@@ -33,6 +33,7 @@ class InventarioFragment : Fragment() {
         val pelucheAdapter = PeluchesAdapter(peluchito,this.requireContext())
         recyclerView.adapter = pelucheAdapter
 
+        
         return root
 
     }

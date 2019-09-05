@@ -18,6 +18,7 @@ class AgregarFragment : Fragment() {
 
     var interfaz : comunicador ?= null
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

@@ -27,6 +27,7 @@ class EliminarAdapter: RecyclerView.Adapter<EliminarAdapter.EliminarViewHolder> 
 
     }
 
+
     override fun getItemCount(): Int {
         return listPeluches?.size!!
     }

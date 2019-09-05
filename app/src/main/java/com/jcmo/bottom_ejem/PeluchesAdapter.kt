@@ -38,6 +38,7 @@ class PeluchesAdapter: RecyclerView.Adapter<PeluchesAdapter.PeluchesViewHolder>{
 
             itemView.tid.text = peluche.id
 
+
             itemView.tNombre.text = peluche.nombre
 
             itemView.tPrecio.text = peluche.precio
