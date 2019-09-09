@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/eid"
-            android:editable="true"
+            android:inputType="number"
             android:hint="@string/id"
             android:textSize="25sp"
             />
@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/eNombre"
+            android:inputType="textAutoComplete"
             android:hint="@string/nombre"
             android:textSize="25sp"
             />
@@ -27,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/ePrecio"
+            android:inputType="number"
             android:hint="@string/Precio"
             android:textSize="25sp"
             />
@@ -35,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/eCantidad"
+            android:inputType="number"
             android:hint="@string/Stock"
             android:textSize="25sp"
             />

@@ -5,6 +5,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.peluchito_item.view.*
 
@@ -33,12 +34,14 @@ class EliminarAdapter: RecyclerView.Adapter<EliminarAdapter.EliminarViewHolder> 
     }
 
     override fun onBindViewHolder(holder: EliminarViewHolder, position: Int) {
-        var peluches = listPeluches!![position]
+        val peluches = listPeluches!![position]
         holder.loadItem(peluches)
+
     }
 
 
-    class EliminarViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
+    class EliminarViewHolder(itemView: View):RecyclerView.ViewHolder(itemView) {
+
         fun loadItem(peluche: Peluches){
             itemView.tid.text = peluche.id
 
@@ -47,7 +50,11 @@ class EliminarAdapter: RecyclerView.Adapter<EliminarAdapter.EliminarViewHolder> 
             itemView.tPrecio.text = peluche.precio
 
             itemView.tStock.text = peluche.cantidad
+
+
+
         }
+
 
     }
 
